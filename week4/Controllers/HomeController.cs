@@ -17,7 +17,8 @@ namespace week4.Controllers
 				"Usa",
 				"Canada",
 				"UK",
-				"India"
+				"India",
+				"pakistan"
    
 			};
             return View();
