@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "countries List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>CountriesList</h2>
+<ul>
+@foreach (string strcountries in ViewBag.countries)
+{
+    <li>
+        @strcountries
+        </li>
+}
+</ul>
+
